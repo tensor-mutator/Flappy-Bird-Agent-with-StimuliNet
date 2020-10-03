@@ -6,8 +6,8 @@ authors = ["7000015346 <Debajyoti.Raychaudhuri@ap.sony.com>"]
 
 [tool.poetry.dependencies]
 python = "3.6.8"
-generalized-rl = { path = "../GeneralizedRL/" }
-pipeline = { path = "../Flow-Classification-Pipeline/" }
+generalized-rl = { path = "../GeneralizedRL/generalized-rl/" }
+pipeline = { path = "../Flow-Classification-Pipeline/pipeline/" }
 
 [tool.poetry.dev-dependencies]
 
