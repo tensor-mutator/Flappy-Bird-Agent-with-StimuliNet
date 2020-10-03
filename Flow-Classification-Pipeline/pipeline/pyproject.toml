@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Debajyoti Raychaudhuri <draychaudhuri1086@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6.8"
+tensorflow = "1.15.3"
+opencv-python = "^4.4.0.44"
+gunner-farneback-reward-model = { path = "gunner-farneback-reward-model/" }
+flappy-bird-dataset = { path = "flappy-bird-dataset/" }
+tqdm = "^4.50.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
